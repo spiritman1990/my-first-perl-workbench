@@ -9,6 +9,6 @@ my @names = <stdin>;
 
 map {chomp} @names;
 sub greet
-foreach (@name1) {
+foreach (@names) {
     print $name;
 }
